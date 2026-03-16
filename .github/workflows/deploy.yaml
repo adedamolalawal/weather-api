@@ -29,4 +29,3 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.REGISTRY_URL }}/${{ secrets.REGISTRY_REPO }}:latest
-
